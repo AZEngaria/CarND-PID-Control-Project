@@ -22,7 +22,7 @@ PID::PID() {
 PID::~PID() {}
 
 void PID::Init(double Kp, double Ki, double Kd) {
-	Kp = kp;
+	Kp = Kp;
 	Ki = Ki;
 	Kd = Kd;
 }
